@@ -1,0 +1,112 @@
+{
+  "10:0x9a13F98Cb987694C9F086b1F5eB990EeA8264Ec3": {
+    "chain": "optimism",
+    "code": "da9c29259bf021ec7661",
+    "code_len": 24009,
+    "name": "v4 PoolManager (Optimism)",
+    "owner": "0xa1dd330d602c32622aa270ea73d078b803cb3518",
+    "proxy": false,
+    "status": "ok"
+  },
+  "130:0x1F98400000000000000000000000000000000004": {
+    "chain": "unichain",
+    "code": "2b0f0bb5181faa5b6ba1",
+    "code_len": 24050,
+    "name": "v4 PoolManager (Unichain)",
+    "owner": "0x2bad8182c09f50c8318d769245bea52c32be46cd",
+    "proxy": false,
+    "status": "ok"
+  },
+  "130:0x4529A01c7A0410167c5740C487A8DE60232617bf": {
+    "chain": "unichain",
+    "code": "0f9dced0418ffa049368",
+    "code_len": 23877,
+    "name": "v4 PositionManager (Unichain)",
+    "proxy": false,
+    "status": "ok"
+  },
+  "137:0x67366782805870060151383F4BbFF9daB53e5cD6": {
+    "chain": "polygon",
+    "code": "0a4ac669d537eef5d5f7",
+    "code_len": 24009,
+    "name": "v4 PoolManager (Polygon)",
+    "owner": "0x8a1b966ac46f42275860f905dbc75efbfdc12374",
+    "proxy": false,
+    "status": "ok"
+  },
+  "1:0x000000000004444c5dc75cB358380D2e3dE08A90": {
+    "chain": "ethereum",
+    "code": "62b338e5f430128dbf37",
+    "code_len": 24009,
+    "name": "v4 PoolManager (Ethereum)",
+    "owner": "0x1a9c8182c09f50c8318d769245bea52c32be35bc",
+    "proxy": false,
+    "status": "ok"
+  },
+  "1:0x000000000022D473030F116dDEE9F6B43aC78BA3": {
+    "chain": "ethereum",
+    "code": "6edcbff6f4da0cef8d92",
+    "code_len": 9152,
+    "name": "Permit2 (Ethereum)",
+    "proxy": false,
+    "status": "ok"
+  },
+  "1:0xbD216513d74C8cf14cf4747E6AaA6420FF64ee9e": {
+    "chain": "ethereum",
+    "code": "4637b468554ac6490146",
+    "code_len": 23877,
+    "name": "v4 PositionManager (Ethereum)",
+    "proxy": false,
+    "status": "ok"
+  },
+  "42161:0x000000000022D473030F116dDEE9F6B43aC78BA3": {
+    "chain": "arbitrum",
+    "code": "6f7371c60f58dcfa8616",
+    "code_len": 9152,
+    "name": "Permit2 (Arbitrum)",
+    "proxy": false,
+    "status": "ok"
+  },
+  "42161:0x360E68faCcca8cA495c1B759Fd9EEe466db9FB32": {
+    "chain": "arbitrum",
+    "code": "0b00585ef584e3680cc9",
+    "code_len": 24009,
+    "name": "v4 PoolManager (Arbitrum)",
+    "owner": "0x2bad8182c09f50c8318d769245bea52c32be46cd",
+    "proxy": false,
+    "status": "ok"
+  },
+  "42161:0xd88F38F930b7952f2DB2432Cb002E7abbF3dD869": {
+    "chain": "arbitrum",
+    "code": "ecc2a3584a1bfc61bbcb",
+    "code_len": 23877,
+    "name": "v4 PositionManager (Arbitrum)",
+    "proxy": false,
+    "status": "ok"
+  },
+  "8453:0x000000000022D473030F116dDEE9F6B43aC78BA3": {
+    "chain": "base",
+    "code": "597df4c55f25c8ef1aa9",
+    "code_len": 9152,
+    "name": "Permit2 (Base)",
+    "proxy": false,
+    "status": "ok"
+  },
+  "8453:0x498581fF718922c3f8e6A244956aF099B2652b2b": {
+    "chain": "base",
+    "code": "695584a22395f8dd63c9",
+    "code_len": 24009,
+    "name": "v4 PoolManager (Base)",
+    "owner": "0x31fafd4889fa1269f7a13a66ee0fb458f27d72a9",
+    "proxy": false,
+    "status": "ok"
+  },
+  "8453:0x7C5f5A4bBd8fD63184577525326123B519429bDc": {
+    "chain": "base",
+    "code": "c9f64a2a8f21f734bd29",
+    "code_len": 23877,
+    "name": "v4 PositionManager (Base)",
+    "proxy": false,
+    "status": "ok"
+  }
+}

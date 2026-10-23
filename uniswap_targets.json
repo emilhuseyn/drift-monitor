@@ -1,0 +1,15 @@
+[
+  ["ethereum", 1, "0x000000000004444c5dc75cB358380D2e3dE08A90", "v4 PoolManager (Ethereum)"],
+  ["unichain", 130, "0x1F98400000000000000000000000000000000004", "v4 PoolManager (Unichain)"],
+  ["base", 8453, "0x498581fF718922c3f8e6A244956aF099B2652b2b", "v4 PoolManager (Base)"],
+  ["arbitrum", 42161, "0x360E68faCcca8cA495c1B759Fd9EEe466db9FB32", "v4 PoolManager (Arbitrum)"],
+  ["optimism", 10, "0x9a13F98Cb987694C9F086b1F5eB990EeA8264Ec3", "v4 PoolManager (Optimism)"],
+  ["polygon", 137, "0x67366782805870060151383F4BbFF9daB53e5cD6", "v4 PoolManager (Polygon)"],
+  ["ethereum", 1, "0xbD216513d74C8cf14cf4747E6AaA6420FF64ee9e", "v4 PositionManager (Ethereum)"],
+  ["base", 8453, "0x7C5f5A4bBd8fD63184577525326123B519429bDc", "v4 PositionManager (Base)"],
+  ["arbitrum", 42161, "0xd88F38F930b7952f2DB2432Cb002E7abbF3dD869", "v4 PositionManager (Arbitrum)"],
+  ["unichain", 130, "0x4529A01c7A0410167c5740C487A8DE60232617bf", "v4 PositionManager (Unichain)"],
+  ["ethereum", 1, "0x000000000022D473030F116dDEE9F6B43aC78BA3", "Permit2 (Ethereum)"],
+  ["base", 8453, "0x000000000022D473030F116dDEE9F6B43aC78BA3", "Permit2 (Base)"],
+  ["arbitrum", 42161, "0x000000000022D473030F116dDEE9F6B43aC78BA3", "Permit2 (Arbitrum)"]
+]

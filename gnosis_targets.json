@@ -1,0 +1,11 @@
+[
+  ["ethereum", 1, "0x88ad09518695c6c3712AC10a214bE5109a655671", "OmniBridge foreign mediator (Ethereum)"],
+  ["ethereum", 1, "0x4C36d2919e407f0Cc2Ee3c993ccF8ac26d9CE64e", "AMB foreign bridge (Ethereum)"],
+  ["ethereum", 1, "0x6810e776880C02933D47DB1b9fc05908e5386b96", "GNO token (Ethereum)"],
+  ["gnosis", 100, "0xf6A78083ca3e2a662D6dd1703c939c8aCE2e268d", "OmniBridge home mediator (Gnosis)"],
+  ["gnosis", 100, "0x75Df5AF045d91108662D8080fD1FEFAd6aA0bb59", "AMB home bridge (Gnosis)"],
+  ["gnosis", 100, "0x0B98057eA310F4d31F2a452B414647007d1645d9", "GBC deposit contract (Gnosis)"],
+  ["gnosis", 100, "0xe91D153E0b41518A2Ce8Dd3D7944Fa863463a97d", "WXDAI (Gnosis)"],
+  ["gnosis", 100, "0x9C58BAcC331c9aa871AFD802DB6379a98e80CEdb", "GNO token (Gnosis)"],
+  ["gnosis", 100, "0x647507A70Ff598F386CB96ae5046486389368C66", "USDC.e bridged (Gnosis)"]
+]

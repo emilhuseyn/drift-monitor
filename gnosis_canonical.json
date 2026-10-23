@@ -1,0 +1,88 @@
+{
+  "100:0x0B98057eA310F4d31F2a452B414647007d1645d9": {
+    "admin": "0x7a48dac683da91e4faa5ab13d91ab5fd170875bd",
+    "chain": "gnosis",
+    "code": "4d30bb9b4f15926ea59c",
+    "code_len": 1165,
+    "impl": "0x49de1aced385334f1a66d86db363264eb5b6a708",
+    "name": "GBC deposit contract (Gnosis)",
+    "proxy": true,
+    "status": "ok"
+  },
+  "100:0x647507A70Ff598F386CB96ae5046486389368C66": {
+    "admin": "0x7a48dac683da91e4faa5ab13d91ab5fd170875bd",
+    "chain": "gnosis",
+    "code": "a902325b6ccd10153826",
+    "code_len": 1165,
+    "impl": "0x0b91d1e3312aeef7e9e641606ad0aa19aa05673d",
+    "name": "USDC.e bridged (Gnosis)",
+    "proxy": true,
+    "status": "ok"
+  },
+  "100:0x75Df5AF045d91108662D8080fD1FEFAd6aA0bb59": {
+    "chain": "gnosis",
+    "code": "f2540395a235219d6923",
+    "code_len": 992,
+    "impl": "0xa033535983d1abcc2648af730edcb198909903d7",
+    "name": "AMB home bridge (Gnosis)",
+    "owner": "0x7a48dac683da91e4faa5ab13d91ab5fd170875bd",
+    "proxy": true,
+    "status": "ok"
+  },
+  "100:0x9C58BAcC331c9aa871AFD802DB6379a98e80CEdb": {
+    "chain": "gnosis",
+    "code": "015dcae2b9a1aa08b574",
+    "code_len": 286,
+    "impl": "0xf8d1677c8a0c961938bf2f9adc3f3cfda759a9d9",
+    "name": "GNO token (Gnosis)",
+    "owner": "0xf6a78083ca3e2a662d6dd1703c939c8ace2e268d",
+    "proxy": true,
+    "status": "ok"
+  },
+  "100:0xe91D153E0b41518A2Ce8Dd3D7944Fa863463a97d": {
+    "chain": "gnosis",
+    "code": "d13e00b1f2deb1efd46f",
+    "code_len": 3204,
+    "name": "WXDAI (Gnosis)",
+    "proxy": false,
+    "status": "ok"
+  },
+  "100:0xf6A78083ca3e2a662D6dd1703c939c8aCE2e268d": {
+    "chain": "gnosis",
+    "code": "f2540395a235219d6923",
+    "code_len": 992,
+    "impl": "0x2dbdcc6cad1a5a11fd6337244407bc06162aaf92",
+    "name": "OmniBridge home mediator (Gnosis)",
+    "owner": "0x7a48dac683da91e4faa5ab13d91ab5fd170875bd",
+    "proxy": true,
+    "status": "ok"
+  },
+  "1:0x4C36d2919e407f0Cc2Ee3c993ccF8ac26d9CE64e": {
+    "chain": "ethereum",
+    "code": "f2540395a235219d6923",
+    "code_len": 992,
+    "impl": "0x098f51bdfb5d6d319dd4fdf06b64773d25bd1316",
+    "name": "AMB foreign bridge (Ethereum)",
+    "owner": "0x42f38ec5a75accec50054671233dfac9c0e7a3f6",
+    "proxy": true,
+    "status": "ok"
+  },
+  "1:0x6810e776880C02933D47DB1b9fc05908e5386b96": {
+    "chain": "ethereum",
+    "code": "dcc0e5ac99aa7a43f065",
+    "code_len": 2599,
+    "name": "GNO token (Ethereum)",
+    "proxy": false,
+    "status": "ok"
+  },
+  "1:0x88ad09518695c6c3712AC10a214bE5109a655671": {
+    "chain": "ethereum",
+    "code": "f2540395a235219d6923",
+    "code_len": 992,
+    "impl": "0x8eb3b7d8498a6716904577b2579e1c313d48e347",
+    "name": "OmniBridge foreign mediator (Ethereum)",
+    "owner": "0x42f38ec5a75accec50054671233dfac9c0e7a3f6",
+    "proxy": true,
+    "status": "ok"
+  }
+}

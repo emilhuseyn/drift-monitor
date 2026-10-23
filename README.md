@@ -91,6 +91,29 @@ proves every chain runs the canonical bytecode, and on the first sweep it flagge
 that Unichain's PoolManager build is a different length (24050) to the other five
 chains (24009). That is exactly the cross-chain divergence a standing check is for.
 
+## Example 3 - Gnosis (9 contracts across Ethereum + Gnosis Chain)
+
+```
+py drift_monitor.py --targets gnosis_targets.json --manifest gnosis_canonical.json --baseline
+
+baseline written: 9/9 contracts reachable, 7 proxies
+  OmniBridge foreign mediator (Eth)  ethereum  impl=0x8eb3b7d8...
+  OmniBridge home mediator (Gnosis)  gnosis    impl=0x2dbdcc6c...
+  AMB foreign bridge (Ethereum)      ethereum  impl=0x098f51bd...
+  AMB home bridge (Gnosis)           gnosis    impl=0xa0335359...
+  GBC deposit contract (Gnosis)      gnosis    impl=0x49de1ace...  admin=0x7a48dac6...
+  USDC.e bridged (Gnosis)            gnosis    impl=0x0b91d1e3...  admin=0x7a48dac6...
+  ... 9 total across 2 chains
+```
+
+The OmniBridge and AMB mediators (home and foreign) are EternalStorageProxy
+contracts - the upgradeable surface that secures all value crossing between
+Ethereum and Gnosis Chain. The GBC deposit contract, which secures Gnosis
+consensus staking, is upgradeable too, and shares its upgrade admin
+(0x7a48dac6...) with the bridged USDC.e: one key over both the consensus deposit
+and a bridged stablecoin. A monitor that proves those implementations and that
+shared admin have not moved is a direct consensus- and bridge-integrity check.
+
 ## Scope
 
 A production deployment would cover every governed address on every chain a

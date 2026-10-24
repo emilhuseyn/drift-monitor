@@ -1,0 +1,10 @@
+[
+  ["filecoin", 314, "0xA3719Bd2146C6BB00F24164168d01469Ee368e4a", "Secured Finance AddressResolver (proxy)"],
+  ["filecoin", 314, "0x581e463841bD2B30285929448e1A93D74708719F", "Secured Finance BeaconProxyController (proxy)"],
+  ["filecoin", 314, "0x7dca6b6BF30cd28ADe83e86e21e82e3F852bF2DC", "Secured Finance CurrencyController (proxy)"],
+  ["filecoin", 314, "0xB74749b2213916b1dA3b869E41c7c57f1db69393", "Secured Finance TokenVault (proxy)"],
+  ["filecoin", 314, "0x35e9D8e0223A75E51a67aa731127C91Ea0779Fe2", "Secured Finance LendingMarketController (proxy)"],
+  ["filecoin", 314, "0xD2683E22331B9a6e9F38350d829dBEB64ad2778e", "Secured Finance ReserveFund (proxy)"],
+  ["filecoin", 314, "0xa2700D5feDB13b86Bba3228008C7a0d464a07f2b", "Secured Finance GenesisValueVault (proxy)"],
+  ["filecoin", 314, "0x0A7B97F7FbfF52d2Dd6ee91a98E0Ae5fC16480c6", "Secured Finance DefaultProxyAdmin"]
+]

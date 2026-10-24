@@ -114,6 +114,30 @@ consensus staking, is upgradeable too, and shares its upgrade admin
 and a bridged stablecoin. A monitor that proves those implementations and that
 shared admin have not moved is a direct consensus- and bridge-integrity check.
 
+## Example 4 - Filecoin FEVM (8 contracts, Secured Finance lending)
+
+```
+py drift_monitor.py --targets filecoin_targets.json --manifest filecoin_canonical.json --baseline
+
+baseline written: 8/8 contracts reachable, 6 proxies
+  LendingMarketController (proxy)  filecoin  impl=0x148ccf9c...  admin=0x1634d210...
+  BeaconProxyController (proxy)    filecoin  impl=0x6a263a76...  admin=0x1634d210...
+  CurrencyController (proxy)       filecoin  impl=0x5275267b...  admin=0x1634d210...
+  TokenVault (proxy)               filecoin  impl=0x81f4ca7a...  admin=0x1634d210...
+  ReserveFund (proxy)              filecoin  impl=0xa63ad324...  admin=0x1634d210...
+  GenesisValueVault (proxy)        filecoin  impl=0x30c18a94...  admin=0x1634d210...
+  ... 8 total on Filecoin mainnet (chain 314), read over public FEVM RPC, no API key
+```
+
+Filecoin's FEVM is EVM-compatible, so the same engine reads it over public RPC
+(`api.node.glif.io`). Secured Finance, the lending protocol here, runs six
+OpenZeppelin transparent proxies. On the first sweep the tool surfaced that all
+five upgradeable logic proxies share one `ProxyAdmin` (`0x1634d210...`), whose own
+`owner()` is a single account (`0x4f122d7f...`): one key that can swap the
+implementation behind the entire lending protocol. Continuously proving that key
+and each implementation have not moved is exactly what FEVM is missing - the
+behavioural monitors that watch Ethereum do not watch Filecoin deployments at all.
+
 ## Scope
 
 A production deployment would cover every governed address on every chain a

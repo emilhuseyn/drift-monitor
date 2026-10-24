@@ -1,0 +1,84 @@
+{
+  "314:0x0A7B97F7FbfF52d2Dd6ee91a98E0Ae5fC16480c6": {
+    "chain": "filecoin",
+    "code": "91127e3042d5d68a1ba0",
+    "code_len": 2632,
+    "name": "Secured Finance DefaultProxyAdmin",
+    "owner": "0x4f122d7fce7971e38801af5d96fcd4ed83efd654",
+    "proxy": false,
+    "status": "ok"
+  },
+  "314:0x35e9D8e0223A75E51a67aa731127C91Ea0779Fe2": {
+    "admin": "0x1634d2104b48299da7d927c4582ea7ba67020ebb",
+    "chain": "filecoin",
+    "code": "b449a88f656fb752be64",
+    "code_len": 1051,
+    "impl": "0x148ccf9cd78a1c7bd197261c7787014881d1fe43",
+    "name": "Secured Finance LendingMarketController (proxy)",
+    "owner": "0x874aed75ab58ba84d5008cfcbf9b9c7b5eb17d57",
+    "proxy": true,
+    "status": "ok"
+  },
+  "314:0x581e463841bD2B30285929448e1A93D74708719F": {
+    "admin": "0x1634d2104b48299da7d927c4582ea7ba67020ebb",
+    "chain": "filecoin",
+    "code": "b449a88f656fb752be64",
+    "code_len": 1051,
+    "impl": "0x6a263a761ae471173361dfb3663a35a61cea733e",
+    "name": "Secured Finance BeaconProxyController (proxy)",
+    "owner": "0x874aed75ab58ba84d5008cfcbf9b9c7b5eb17d57",
+    "proxy": true,
+    "status": "ok"
+  },
+  "314:0x7dca6b6BF30cd28ADe83e86e21e82e3F852bF2DC": {
+    "admin": "0x1634d2104b48299da7d927c4582ea7ba67020ebb",
+    "chain": "filecoin",
+    "code": "b449a88f656fb752be64",
+    "code_len": 1051,
+    "impl": "0x5275267b88bff16b103c22a6ff4916af631ae034",
+    "name": "Secured Finance CurrencyController (proxy)",
+    "owner": "0x874aed75ab58ba84d5008cfcbf9b9c7b5eb17d57",
+    "proxy": true,
+    "status": "ok"
+  },
+  "314:0xA3719Bd2146C6BB00F24164168d01469Ee368e4a": {
+    "chain": "filecoin",
+    "code": "d7288a4ee43047b65c24",
+    "code_len": 3703,
+    "name": "Secured Finance AddressResolver (proxy)",
+    "proxy": false,
+    "status": "ok"
+  },
+  "314:0xB74749b2213916b1dA3b869E41c7c57f1db69393": {
+    "admin": "0x1634d2104b48299da7d927c4582ea7ba67020ebb",
+    "chain": "filecoin",
+    "code": "b449a88f656fb752be64",
+    "code_len": 1051,
+    "impl": "0x81f4ca7a5fb70ceb992e0523ebe8bf398ba0635a",
+    "name": "Secured Finance TokenVault (proxy)",
+    "owner": "0x874aed75ab58ba84d5008cfcbf9b9c7b5eb17d57",
+    "proxy": true,
+    "status": "ok"
+  },
+  "314:0xD2683E22331B9a6e9F38350d829dBEB64ad2778e": {
+    "admin": "0x1634d2104b48299da7d927c4582ea7ba67020ebb",
+    "chain": "filecoin",
+    "code": "b449a88f656fb752be64",
+    "code_len": 1051,
+    "impl": "0xa63ad3244f94ba2e2b4da3a2e55009c92d927452",
+    "name": "Secured Finance ReserveFund (proxy)",
+    "owner": "0x874aed75ab58ba84d5008cfcbf9b9c7b5eb17d57",
+    "proxy": true,
+    "status": "ok"
+  },
+  "314:0xa2700D5feDB13b86Bba3228008C7a0d464a07f2b": {
+    "admin": "0x1634d2104b48299da7d927c4582ea7ba67020ebb",
+    "chain": "filecoin",
+    "code": "b449a88f656fb752be64",
+    "code_len": 1051,
+    "impl": "0x30c18a947ec9fb4d34497fd5d0ca387442186dc2",
+    "name": "Secured Finance GenesisValueVault (proxy)",
+    "proxy": true,
+    "status": "ok"
+  }
+}

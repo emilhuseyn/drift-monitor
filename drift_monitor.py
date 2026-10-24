@@ -46,9 +46,11 @@ RPC = {
     534352: ["https://scroll-rpc.publicnode.com", "https://rpc.scroll.io"],
     5000:   ["https://mantle-rpc.publicnode.com", "https://rpc.mantle.xyz"],
     100:    ["https://gnosis-rpc.publicnode.com", "https://rpc.gnosischain.com"],
+    314:    ["https://api.node.glif.io/rpc/v1", "https://rpc.ankr.com/filecoin"],
 }
 CHAIN_NAME = {1: "ethereum", 10: "optimism", 130: "unichain", 8453: "base", 42161: "arbitrum",
-              137: "polygon", 59144: "linea", 534352: "scroll", 5000: "mantle", 100: "gnosis"}
+              137: "polygon", 59144: "linea", 534352: "scroll", 5000: "mantle", 100: "gnosis",
+              314: "filecoin"}
 
 SLOT_IMPL = "0x360894a13ba1a3210667c828492db98dca3e2076cc3735a920a3ca505d382bbc"
 SLOT_ADMIN = "0xb53127684a568b3173ae13b9f8a6016e243e63b6e8ee1178d6a717850b5d6103"

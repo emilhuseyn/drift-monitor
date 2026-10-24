@@ -132,11 +132,13 @@ baseline written: 8/8 contracts reachable, 6 proxies
 Filecoin's FEVM is EVM-compatible, so the same engine reads it over public RPC
 (`api.node.glif.io`). Secured Finance, the lending protocol here, runs six
 OpenZeppelin transparent proxies. On the first sweep the tool surfaced that all
-five upgradeable logic proxies share one `ProxyAdmin` (`0x1634d210...`), whose own
-`owner()` is a single account (`0x4f122d7f...`): one key that can swap the
-implementation behind the entire lending protocol. Continuously proving that key
-and each implementation have not moved is exactly what FEVM is missing - the
-behavioural monitors that watch Ethereum do not watch Filecoin deployments at all.
+five upgradeable logic proxies share one `ProxyAdmin` (`0x1634d210...`), whose
+`owner()` is a 2-of-3 Gnosis Safe multisig (`0x874aed75...`). That single admin,
+and each implementation behind it, is the entire upgrade surface of the lending
+protocol - the exact set a monitor must prove, continuously, has not changed.
+Continuously asserting those implementations and that admin have not moved is what
+FEVM is missing: the behavioural monitors that watch Ethereum do not watch Filecoin
+deployments at all.
 
 ## Scope
 
